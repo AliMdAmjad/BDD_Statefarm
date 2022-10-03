@@ -1,0 +1,703 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-02T07:21:33.382Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12996194500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "statefarm.bdd.base.HookClass.beforeHook()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Get a Auto Quote with different data",
+        "description": "",
+        "id": "auto-quote-validation;get-a-auto-quote-with-different-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 759435300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "statefarm.bdd.base.HookClass.afterHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 612361100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is in the homepage",
+            "match": {
+              "location": "statefarm.bdd.steps.StartingSteps.user_is_in_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 189835000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user input 14206 in zipcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "14206",
+                  "offset": 11
+                }
+              ],
+              "location": "statefarm.bdd.steps.StartingSteps.user_input_in_zipcode(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 356090700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click get a quote",
+            "match": {
+              "location": "statefarm.bdd.steps.AutoSteps.click_get_a_quote()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7425881000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click continue",
+            "match": {
+              "location": "statefarm.bdd.steps.AutoSteps.click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16955600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user will be in auto \"Welcome - Auto Quote - State Farm\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome - Auto Quote - State Farm\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_be_in_auto(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 394245200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user will type their \"md\" in first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"md\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_type_their_in_first_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221162500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user will type their \"a\" in middle name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_type_their_in_middle_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220895900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user will type their \"ali\" in last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ali\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_type_their_in_last_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 553620200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user will type their \"952 e lovejoy\" in address field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"952 e lovejoy\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_type_their_in_address_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 482705200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user will type their \"09-07-1988\" in dob field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"09-07-1988\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_type_their_in_dob_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 493223200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user will click at terms and condition",
+            "match": {
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_click_at_terms_and_condition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 745599000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user will click at vehicles button",
+            "match": {
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_click_at_vehicles_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@autoQuote"
+          },
+          {
+            "name": "@dataDriven"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-02T07:21:58.992Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6193783500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "statefarm.bdd.base.HookClass.beforeHook()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Get a Auto Quote with different data",
+        "description": "",
+        "id": "auto-quote-validation;get-a-auto-quote-with-different-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 621729600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "statefarm.bdd.base.HookClass.afterHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18949200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is in the homepage",
+            "match": {
+              "location": "statefarm.bdd.steps.StartingSteps.user_is_in_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 287233100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user input 14211 in zipcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "14211",
+                  "offset": 11
+                }
+              ],
+              "location": "statefarm.bdd.steps.StartingSteps.user_input_in_zipcode(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 449796600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click get a quote",
+            "match": {
+              "location": "statefarm.bdd.steps.AutoSteps.click_get_a_quote()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7258780400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click continue",
+            "match": {
+              "location": "statefarm.bdd.steps.AutoSteps.click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65906400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user will be in auto \"Welcome - Auto Quote - State Farm\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome - Auto Quote - State Farm\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_be_in_auto(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1334165400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user will type their \"ahmed\" in first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ahmed\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_type_their_in_first_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 257884200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user will type their \"murad\" in middle name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"murad\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_type_their_in_middle_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239448000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user will type their \"khan\" in last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"khan\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_type_their_in_last_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 557823500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user will type their \"953 e lovejoy\" in address field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"953 e lovejoy\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_type_their_in_address_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 556705900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user will type their \"09-06-1987\" in dob field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"09-06-1987\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_type_their_in_dob_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 649536700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user will click at terms and condition",
+            "match": {
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_click_at_terms_and_condition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1256408700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user will click at vehicles button",
+            "match": {
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_click_at_vehicles_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@autoQuote"
+          },
+          {
+            "name": "@dataDriven"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-02T07:22:18.760Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8022169400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "statefarm.bdd.base.HookClass.beforeHook()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Get a Auto Quote with different data",
+        "description": "",
+        "id": "auto-quote-validation;get-a-auto-quote-with-different-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 590230800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "statefarm.bdd.base.HookClass.afterHook()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 175054800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is in the homepage",
+            "match": {
+              "location": "statefarm.bdd.steps.StartingSteps.user_is_in_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 397962400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user input 14215 in zipcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "14215",
+                  "offset": 11
+                }
+              ],
+              "location": "statefarm.bdd.steps.StartingSteps.user_input_in_zipcode(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 500259100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click get a quote",
+            "match": {
+              "location": "statefarm.bdd.steps.AutoSteps.click_get_a_quote()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8041534100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click continue",
+            "match": {
+              "location": "statefarm.bdd.steps.AutoSteps.click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10972300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user will be in auto \"Welcome - Auto Quote - State Farm\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome - Auto Quote - State Farm\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_be_in_auto(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 213034100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user will type their \"hasan\" in first name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hasan\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_type_their_in_first_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248550500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user will type their \"mamun\" in middle name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mamun\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_type_their_in_middle_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 238858900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user will type their \"syed\" in last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"syed\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_type_their_in_last_name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 715368000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user will type their \"955 e lovejoy\" in address field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"955 e lovejoy\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_type_their_in_address_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 647944800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user will type their \"09-09-1977\" in dob field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"09-09-1977\"",
+                  "offset": 21
+                }
+              ],
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_type_their_in_dob_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 387592700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user will click at terms and condition",
+            "match": {
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_click_at_terms_and_condition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 855968500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user will click at vehicles button",
+            "match": {
+              "location": "statefarm.bdd.steps.AutoSteps.user_will_click_at_vehicles_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@autoQuote"
+          },
+          {
+            "name": "@dataDriven"
+          }
+        ]
+      }
+    ],
+    "name": "Auto Quote Validation",
+    "description": "",
+    "id": "auto-quote-validation",
+    "keyword": "Feature",
+    "uri": "file:features/AutoQuote.feature",
+    "tags": [
+      {
+        "name": "@autoQuote",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
