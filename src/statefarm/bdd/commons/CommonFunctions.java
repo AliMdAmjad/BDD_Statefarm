@@ -48,7 +48,7 @@ public class CommonFunctions {
 			Assert.fail();
 		}
 	}
-	
+
 	public String getTitle(WebDriver driver) {
 		Loggers.getLog("The Title of the page is : " + driver.getTitle());
 		return driver.getTitle();

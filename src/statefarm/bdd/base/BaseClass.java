@@ -20,31 +20,24 @@ public class BaseClass {
 	public Configuration configuration = Configuration.getInstance();
 	public static WebDriver driver;
 	public static WebDriverWait wait;
-	
 
 	protected static CommonFunctions commons;
 	protected static CommonWaits waits;
 
 	protected static HomePage homePage;
 	protected static AutoQuote autoQuote;
-	
-	
-	
-	
-	
-
-	
 
 	public void setUp(String browser1) {
 		driver = localDriver(browser1);
 		driver.manage().window().maximize();
 		driver.get(configuration.get("url"));
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Integer.parseInt(configuration.get("pageloadWait"))));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(configuration.get("implicitWait"))));
+		driver.manage().timeouts()
+				.pageLoadTimeout(Duration.ofSeconds(Integer.parseInt(configuration.get("pageloadWait"))));
+		driver.manage().timeouts()
+				.implicitlyWait(Duration.ofSeconds(Integer.parseInt(configuration.get("implicitWait"))));
 		wait = new WebDriverWait(driver, Duration.ofSeconds(Integer.parseInt(configuration.get("explicitWait"))));
 		initClasses();
 	}
-	
 
 	private WebDriver localDriver(String browserName) {
 		if (browserName.equalsIgnoreCase("chrome")) {
@@ -79,8 +72,9 @@ public class BaseClass {
 		return driver;
 	}
 
-	
 	public void terminate() {
 		driver.quit();
 	}
 }
+
+//baseclass

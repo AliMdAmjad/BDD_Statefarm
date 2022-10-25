@@ -1,22 +1,22 @@
 package statefarm.bdd.utils;
 
 public class AutoData {
-	
+
 	private String zipCode;
 	private String firstName;
 	private String middleName;
 	private String lastName;
 	private String address;
 	private String dob;
-	
-	public AutoData(String zipCode, String firstName,String middleName,String lastName,String address,String dob) {
+
+	public AutoData(String zipCode, String firstName, String middleName, String lastName, String address, String dob) {
 		this.zipCode = zipCode;
 		this.firstName = firstName;
 		this.middleName = middleName;
 		this.lastName = lastName;
 		this.address = address;
 		this.dob = dob;
-		
+
 	}
 
 	public String getZipCode() {
@@ -42,5 +42,5 @@ public class AutoData {
 	public String getDob() {
 		return dob;
 	}
-	
+
 }

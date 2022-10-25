@@ -18,9 +18,5 @@ public class StartingSteps extends BaseClass {
 		homePage.inputZipCode(int1.toString());
 
 	}
-	
-	
-
-	
 
 }

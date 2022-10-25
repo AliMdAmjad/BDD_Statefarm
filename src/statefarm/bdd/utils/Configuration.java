@@ -5,14 +5,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-
-
 public class Configuration {
 
 	private static Configuration configuration;
 	private Properties properties;
 	private final String defaultPath = "configuration/config.properties";
-	
+
 	private Configuration() {
 		loadProperty();
 	}
@@ -27,18 +25,18 @@ public class Configuration {
 			e.printStackTrace();
 		}
 	}
-	
+
 	public static Configuration getInstance() {
-		if(configuration == null) {
+		if (configuration == null) {
 			configuration = new Configuration();
 		}
 		return configuration;
 	}
-	
+
 	public String get(String key) {
-		if(key != null) {
+		if (key != null) {
 			return properties.getProperty(key);
-		}else {
+		} else {
 			return null;
 		}
 	}

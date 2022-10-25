@@ -39,11 +39,11 @@ public class AutoQuote {
 
 	@FindBy(name = "nextVehicles")
 	WebElement nextVehiclesElement;
-	
+
 	public void verifyTitle(String expectedTitle) {
 		assertEquals(commons.getTitle(driver), expectedTitle);
 	}
-	
+
 	public void typeFirstName(String firstname) {
 		commons.inputValues(firstNamElement, firstname);
 	}
@@ -84,8 +84,7 @@ public class AutoQuote {
 		clickNextVehicles();
 
 	}
-	
-	
+
 	public void getQuoteSteps(AutoData autoData) {
 		typeFirstName(autoData.getFirstName());
 		typeMiddleName(autoData.getMiddleName());

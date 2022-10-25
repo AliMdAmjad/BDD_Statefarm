@@ -1,6 +1,5 @@
 package statefarm.bdd.objects;
 
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,10 +24,10 @@ public class HomePage {
 
 	@FindBy(id = "quote-main-zip-btn")
 	WebElement getQuotElement;
-	
+
 	@FindBy(id = "nyLegacyCloseLinkId")
 	WebElement popUpElement;
-	
+
 	public void getCurrentUrl() {
 		commons.getCurrentUrl(driver);
 	}
@@ -42,7 +41,7 @@ public class HomePage {
 		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getQuotElement);
 		commons.click(getQuotElement);
 	}
-	
+
 	public void clickAtPopUp() {
 		commons.click(popUpElement);
 	}

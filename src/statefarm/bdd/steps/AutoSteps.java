@@ -11,7 +11,7 @@ public class AutoSteps extends BaseClass {
 		homePage.clickAtGetQuote();
 
 	}
-	
+
 	@When("click continue")
 	public void click_continue() {
 		homePage.clickAtPopUp();
